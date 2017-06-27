@@ -28,3 +28,17 @@
 - git add -A : add all files, including hidden ones
 - git add *.html : adds all html files. * is a wildcard
 - q : quit the git log "pager"
+
+## Removing Files
+
+- git reset HEAD file2.txt : removes a file from the staging area
+
+## Ignoring Files
+
+- create .gitignore file (which is hidden)
+- add files to ignore to this file
+
+
+## Other useful things
+
+- mv oldFilename newFilename : this will rename a file (or move it if into a different directory)
