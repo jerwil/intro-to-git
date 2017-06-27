@@ -17,3 +17,6 @@
 - git status: shows current status and added/not added files
 - git add <filename>: adds files to staging area
 - git commit -m "message": commits the changes
+- git log: shows a log of the recent commits
+- touch .hidden.txt : creates a hidden file
+- ls -a : shows all files, including hidden
