@@ -20,3 +20,5 @@
 - git log: shows a log of the recent commits
 - touch .hidden.txt : creates a hidden file
 - ls -a : shows all files, including hidden
+- git add -A : add all files, including hidden ones
+- git add *.html : adds all html files. * is a wildcard
