@@ -43,6 +43,8 @@
 - git branch : list all branches
 - git checkout -b <branch_name> : create a new branch
 - git checkout <branch_name> : check out an existing branch
+- git merge <branch_name> : merges branch into current branch. If merging into master, checkout master first!
+- git branch -d <branch_name> : removes a branch
 
 ## Other useful things
 
