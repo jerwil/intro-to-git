@@ -42,6 +42,7 @@
 
 - git branch : list all branches
 - git checkout -b <branch_name> : create a new branch
+- git checkout <branch_name> : check out an existing branch
 
 ## Other useful things
 
