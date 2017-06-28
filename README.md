@@ -38,6 +38,10 @@
 - create .gitignore file (which is hidden)
 - add files to ignore to this file
 
+# Git Branches
+
+- git branch : list all branches
+- git checkout -b <branch_name> : create a new branch
 
 ## Other useful things
 
