@@ -50,6 +50,7 @@
 
 - git checkout <hash of commit> : hash comes from git log, use this to go back to a prior commit
 - git checkout master : gets you back
+- git checkout <filename> : will reset changes for a file since last commit
 
 ## Connecting to github
 
@@ -59,6 +60,12 @@
 - git fetch origin : gets the latest version of the repository from the remote
 - git merge origin <branch name> : merges the latest version of the repository with your version
 - git pull origin <branch name> : performs the previous two operations together
+
+## Determining differences
+
+- git diff HEAD : check differences on the most recent commit
+- git diff --staged : see the changes that are staged
+- git reset <filename> will unstage files
 
 ## Other useful things
 
