@@ -46,6 +46,20 @@
 - git merge <branch_name> : merges branch into current branch. If merging into master, checkout master first!
 - git branch -d <branch_name> : removes a branch
 
+## Checking out Old Commits
+
+- git checkout <hash of commit> : hash comes from git log, use this to go back to a prior commit
+- git checkout master : gets you back
+
+## Connecting to github
+
+- git remote add origin <url> : adds the repository at url as origin
+- git remote -v : lists remote repositories
+- git push -u origin master : push to the remote repository. -u tells git to remember parameters, so all we need is "git push" next time
+- git fetch origin : gets the latest version of the repository from the remote
+- git merge origin <branch name> : merges the latest version of the repository with your version
+- git pull origin <branch name> : performs the previous two operations together
+
 ## Other useful things
 
 - mv oldFilename newFilename : this will rename a file (or move it if into a different directory)
